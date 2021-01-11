@@ -1,0 +1,40 @@
+body {
+    background-image: src("img/coco.jpg");
+}
+
+h1
+
+/* main container*/
+.main-container {
+        max-width: 100%;
+}
+
+/* backgroundimage */
+.backgroundimage {
+    max-width: 100%;
+}
+
+/*nav bar*/
+.nav-bar
+
+
+/*tit container*/
+.title-container
+
+
+/*choose-your-recipe*/
+.choose-your-recipe
+
+
+
+/*feature-recipe*/
+.feature-recipe
+{
+    max-width: auto;
+}
+
+
+
+
+/*footer*/
+.footer
