@@ -28,11 +28,45 @@ h1
 
 
 /*feature-recipe*/
-.feature-recipe
-{
-    max-width: auto;
+.feature-recipe {
+    max-width: 100%;
 }
 
+.recipeOne {
+    max-width: 100%;
+}
+
+.recipeOnePicture {
+    max-width: 100%;
+}
+
+.recipeOneDescription {
+    max-width: 100%;
+}
+
+.recipeTwo {
+    max-width: 100%;
+}
+
+.recipeTwoPicture {
+    max-width: 100%;
+}
+
+.recipeTwoDescription {
+    max-width: 100%;
+}
+
+.recipeThree {
+    max-width: 100%;
+}
+
+.recipeThreePicture {
+    max-width: 100%;
+}
+
+.recipeThreeDescription {
+    max-width: 100%;
+}
 
 
 
