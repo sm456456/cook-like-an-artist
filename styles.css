@@ -34,18 +34,84 @@ body {
 
 
 /*choose-your-recipe*/
-.choose-your-recipe
+.choose-your-recipe {
+    margin-left: 5%;
+    margin-top: 5%;
+}
 
+.tryoutourrecipes-title {
+    font-weight: bold;
+    font-family: 'Oxygen', sans-serif;
+    color: #ff7b54;
+    text-align: center;
+    text-decoration: solid underline black 2px;
+}
 
+.dietstext {
+    margin-right: 2%;
+    font-weight: bold;
+    font-family: 'Merriweather', serif;
+    color: #ff7b54;
+}
 
-/*feature-recipe*/
-.feature-recipe
-{
-    max-width: auto;
+.button {
+    border: 2px solid #ff7b54;
+    color: #ff7b54;
+    line-height: 2.5;
+    font-size: 1rem;
+    text-align: center;
+    background: transparent;   
+    margin-top: 2%;                         
+}
+
+.button:hover {
+    background: ##ff7b54;
+    color: white;
 }
 
 
 
+/*feature-recipe*/
+.feature-recipe {
+    max-width: 100%;
+}
+
+.recipeOne {
+    max-width: 100%;
+}
+
+.recipeOnePicture {
+    max-width: 100%;
+}
+
+.recipeOneDescription {
+    max-width: 100%;
+}
+
+.recipeTwo {
+    max-width: 100%;
+}
+
+.recipeTwoPicture {
+    max-width: 100%;
+}
+
+.recipeTwoDescription {
+    max-width: 100%;
+}
+
+.recipeThree {
+    max-width: 100%;
+}
+
+.recipeThreePicture {
+    max-width: 100%;
+}
+
+.recipeThreeDescription {
+    max-width: 100%;
+}
+
+
 
 /*footer*/
-.footer
