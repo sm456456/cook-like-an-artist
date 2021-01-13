@@ -1,4 +1,4 @@
-body {}
+body 
 
 
 /* main container*/
@@ -96,46 +96,48 @@ body {}
 
 
 /*feature-recipe*/
-.feature-recipe {
-    max-width: 100%;
+
+.container{
+    max-width: auto;
+    max-height: auto;
 }
 
-.recipeOne {
-    max-width: 100%;
+.row{
+    max-width: auto;
 }
 
-.recipeOnePicture {
-    max-width: 100%;
+.col {
+    max-width: auto;
+    margin-bottom: 1.5rem;
 }
 
-.recipeOneDescription {
-    max-width: 100%;
+.card {
+    max-width: auto;
 }
 
-.recipeTwo {
-    max-width: 100%;
+.plate-image {
+    width: 18rem;
+    height: 18rem;
 }
 
-.recipeTwoPicture {
-    max-width: 100%;
+.card-body{
+    max-width: auto;
 }
 
-.recipeTwoDescription {
-    max-width: 100%;
+.card-text{
+    align-content: center;
+    justify-content: center;
 }
 
-.recipeThree {
-    max-width: 100%;
+.card-title{
+    align-content: center;
+    justify-content: center;
 }
 
-.recipeThreePicture {
-    max-width: 100%;
+.btn-primary{
+    background-color: #ff7b54;
+    border: 0;
 }
-
-.recipeThreeDescription {
-    max-width: 100%;
-}
-
 
 
 /*footer*/
