@@ -1,12 +1,15 @@
+
+
 body {
     background-image: url("img/coco.jpg");
 }
+
 
 h1
 
 /* main container*/
 .main-container {
-        max-width: 100%;
+    max-width: 100%;
 }
 
 /* backgroundimage */
@@ -18,7 +21,6 @@ h1
 
 /*tit container*/
 .title-container
-
 
 /*choose-your-recipe*/
 .choose-your-recipe {
