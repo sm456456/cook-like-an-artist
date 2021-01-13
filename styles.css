@@ -1,8 +1,7 @@
 body {
-    background-image: url("img/coco.jpg");
+    
 }
 
-h1
 
 /* main container*/
 .main-container {
@@ -10,13 +9,25 @@ h1
 }
 
 /* backgroundimage */
-.backgroundimage {
-    max-width: 100%;
+
+.header-background-image {
+    background-image: url(/img/coco.jpg);
+    height: 800px;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    background-position: center;
+    background-size: cover;
 }
 
 /*nav bar*/
-.nav-bar
+.nav-bar {
+    padding: 0 3%;
+}
 
+.navbar-img {
+    width: 80%;
+}
 
 /*tit container*/
 .title-container
@@ -104,4 +115,3 @@ h1
 
 
 /*footer*/
-.footer
