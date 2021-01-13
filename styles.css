@@ -9,26 +9,53 @@ body {}
 /* backgroundimage */
 
 .header-background-image {
-    background-image: url(/img/coco.jpg);
-    height: 800px;
+    background-image: url(/img/coco2.jpg);
+    height: 600px;
     width: 100%;
     position: absolute;
     z-index: -1;
     background-position: center;
     background-size: cover;
+    opacity: 0.9;
 }
 
+
 /*nav bar*/
-.nav-bar {
-    padding: 0 3%;
+.navbar {
+    font-family: 'Oxygen', sans-serif;
+    display: flex;
+    background-color: rgba(0,0,0,0.2);
+}
+
+.navbar-right {
+    justify-content: end;
 }
 
 .navbar-img {
-    width: 80%;
+    width: 60%;
+}
+
+.nav-link {
+}
+
+.nav-link:hover {
+    color: green;
 }
 
 /*tit container*/
-.title-container
+.title-container {
+    height: 600px;
+}
+
+.title {
+    font-family: 'Arbutus', cursive;
+    font-size: 500%;
+    text-align: center;
+    padding: 15% 15% 15% 20%;
+    color: white;
+    text-shadow: 4px 8px 0 rgba(10, 10, 10, 0.9);
+}
+
 
 /*choose-your-recipe*/
 .choose-your-recipe {
