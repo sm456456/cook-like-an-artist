@@ -53,19 +53,19 @@ body {}
 
 .button {
     border: 2px solid #ff7b54;
-    color: #ff7b54;
+    color: white;
     line-height: 2.5;
     font-size: 1rem;
     text-align: center;
-    background: transparent;
-    margin-top: 2%;
+    font-weight: bold;
+    background-color: #ff7b54;   
+    margin-top: 2%;                         
 }
 
 .button:hover {
-    background: ##ff7b54;
-    color: white;
+    background: white;
+    color:#ff7b54;
 }
-
 
 
 /*feature-recipe*/
