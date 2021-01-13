@@ -1,11 +1,5 @@
+body {}
 
-
-body {
-    background-image: url("img/coco.jpg");
-}
-
-
-h1
 
 /* main container*/
 .main-container {
@@ -14,10 +8,24 @@ h1
 
 /* backgroundimage */
 
+.header-background-image {
+    background-image: url(/img/coco.jpg);
+    height: 800px;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    background-position: center;
+    background-size: cover;
+}
 
 /*nav bar*/
-.nav-bar
+.nav-bar {
+    padding: 0 3%;
+}
 
+.navbar-img {
+    width: 80%;
+}
 
 /*tit container*/
 .title-container
@@ -45,30 +53,62 @@ h1
 
 .button {
     border: 2px solid #ff7b54;
-    color: white;
+    color: #ff7b54;
     line-height: 2.5;
     font-size: 1rem;
     text-align: center;
-    font-weight: bold;
-    background-color: #ff7b54;   
-    margin-top: 2%;                         
+    background: transparent;
+    margin-top: 2%;
 }
 
 .button:hover {
-    background: white;
-    color:#ff7b54;
+    background: ##ff7b54;
+    color: white;
 }
 
 
 
 /*feature-recipe*/
-.feature-recipe
-{
-    max-width: auto;
+.feature-recipe {
+    max-width: 100%;
+}
+
+.recipeOne {
+    max-width: 100%;
+}
+
+.recipeOnePicture {
+    max-width: 100%;
+}
+
+.recipeOneDescription {
+    max-width: 100%;
+}
+
+.recipeTwo {
+    max-width: 100%;
+}
+
+.recipeTwoPicture {
+    max-width: 100%;
+}
+
+.recipeTwoDescription {
+    max-width: 100%;
+}
+
+.recipeThree {
+    max-width: 100%;
+}
+
+.recipeThreePicture {
+    max-width: 100%;
+}
+
+.recipeThreeDescription {
+    max-width: 100%;
 }
 
 
 
-
 /*footer*/
-.footer
