@@ -1,5 +1,4 @@
-body 
-
+body
 
 /* main container*/
 .main-container {
@@ -24,7 +23,15 @@ body
 .navbar {
     font-family: 'Oxygen', sans-serif;
     display: flex;
-    background-color: rgba(0,0,0,0.2);
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+#subtitles {
+    font-weight: bold;
+    font-family: 'Oxygen', sans-serif;
+    color: #c50d0d;
+    font-size: 1, 75em;
+    text-shadow: 1px 1px 0 rgba(10, 10, 10, 0.9);
 }
 
 .navbar-right {
@@ -35,8 +42,7 @@ body
     width: 60%;
 }
 
-.nav-link {
-}
+.nav-link {}
 
 .nav-link:hover {
     color: green;
@@ -86,25 +92,28 @@ body
     font-size: 1rem;
     text-align: center;
     font-weight: bold;
-    background-color: #ff7b54;   
-    margin-top: 2%;                         
+    background-color: #ff7b54;
+    margin-top: 2%;
+
 }
 
 .button:hover {
     background: white;
-    color:#ff7b54;
+    color: #ff7b54;
 }
 
 
 
 /*feature-recipe*/
 
-.container{
+.container {
     max-width: auto;
     max-height: auto;
+    margin-top: 5%;
+    display: flex;
 }
 
-.row{
+.row {
     max-width: auto;
 }
 
@@ -113,33 +122,55 @@ body
     margin-bottom: 1.5rem;
 }
 
+#column-id {}
+
 .card {
     max-width: auto;
+    align-content: center;
+    justify-content: center;
 }
 
 .plate-image {
     width: 18rem;
-    height: 18rem;
+    height: 14rem;
 }
 
-.card-body{
+.card-body {
     max-width: auto;
 }
 
-.card-text{
+.card-text {
     align-content: center;
     justify-content: center;
 }
 
-.card-title{
+.card-title {
     align-content: center;
     justify-content: center;
 }
 
-.btn-primary{
+.btn-primary {
     background-color: #ff7b54;
     border: 0;
 }
 
-
 /*footer*/
+
+#footer-bottom {
+    background-color: #ff7b54;
+    color: white;
+    }
+
+
+
+
+
+
+/*media*/
+@media only screen and (max-width: 770px) {
+    .row {
+        padding: 0 20%;
+
+    }
+}
+
