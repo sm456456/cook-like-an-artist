@@ -68,7 +68,7 @@ body
     font-family: 'Oxygen', sans-serif;
     color: #ff7b54;
     text-align: center;
-    text-decoration: solid underline black 2px;
+    text-decoration: solid underline #a6a9b6 2px;
 }
 
 .dietstext {
@@ -76,6 +76,7 @@ body
     font-weight: bold;
     font-family: 'Merriweather', serif;
     color: #ff7b54;
+    color: #a6a9b6;
 }
 
 .button {
@@ -93,6 +94,7 @@ body
     background: white;
     color:#ff7b54;
 }
+
 
 
 /*feature-recipe*/
