@@ -4,8 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Arbutus&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
@@ -38,7 +37,7 @@
                     </ul>
                 </div>
             </div>
-
+            
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
                 aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
@@ -54,101 +53,416 @@
     </div>
 
 
-    <div class="choose-your-recipe">
 
-        <h2 class="tryoutourrecipes-title">TRY OUT OUR RECIPES</h2>
 
-        <div class="custom-control custom-checkbox my-1 mr-sm-2">
-            <span class="dietstext">Do you have any of those Allergies?</span>
-            <br>
-            <input type="checkbox" class="custom-control-input" id="customControlInline">
-            <label class="dietstext" class="custom-control-label" for="customControlInline">Milk </label>
-            <input type="checkbox" class="custom-control-input" id="customControlInline">
-            <label class="dietstext" class="custom-control-label" for="customControlInline">Peanuts </label>
-            <input type="checkbox" class="custom-control-input" id="customControlInline">
-            <label class="dietstext" class="custom-control-label" for="customControlInline">Shellfish </label>
-            <input type="checkbox" class="custom-control-input" id="customControlInline">
-            <label class="dietstext" class="custom-control-label" for="customControlInline">Wheat </label>
-            <input type="checkbox" class="custom-control-input" id="customControlInline">
-            <label class="dietstext" class="custom-control-label" for="customControlInline">No </label>
-
-        </div>
-
-        <div class="custom-control custom-checkbox my-1 mr-sm-2">
-            <span class="dietstext">Do you have any of those Intollerances?</span>
-            <br>
-            <input type="checkbox" class="custom-control-input" id="customControlInline">
-            <label class="dietstext" for="dairy">Dairy </label>
-            <input type="checkbox" class="custom-control-input" id="customControlInline">
-            <label class="dietstext" for="gluten">Gluten </label>
-            <input type="checkbox" class="custom-control-input" id="customControlInline">
-            <label class="dietstext" class="custom-control-label" for="customControlInline">No </label>
-
-        </div>
-
-        <div class="custom-control custom-checkbox my-1 mr-sm-2">
-            <span class="dietstext">Do you have any of those diet preferences?</span>
-            <br>
-            <input type="checkbox" class="custom-control-input" id="customControlInline">
-            <label class="dietstext" class="custom-control-label" for="customControlInline">Vegan </label>
-            <input type="checkbox" class="custom-control-input" id="customControlInline">
-            <label class="dietstext" class="custom-control-label" for="customControlInline">Vegeterian </label>
-            <input type="checkbox" class="custom-control-input" id="customControlInline">
-            <label class="dietstext" class="custom-control-label" for="customControlInline">Pescaterian </label>
-            <input type="checkbox" class="custom-control-input" id="customControlInline">
-            <label class="dietstext" class="custom-control-label" for="customControlInline">Low-Carb </label>
-            <input type="checkbox" class="custom-control-input" id="customControlInline">
-            <label class="dietstext" class="custom-control-label" for="customControlInline">Low-Fat </label>
-            <input type="checkbox" class="custom-control-input" id="customControlInline">
-            <label class="dietstext" class="custom-control-label" for="customControlInline">Low-Sugar </label>
-            <input type="checkbox" class="custom-control-input" id="customControlInline">
-            <label class="dietstext" class="custom-control-label" for="customControlInline">High-Protein </label>
-            <input type="checkbox" class="custom-control-input" id="customControlInline">
-            <label class="dietstext" class="custom-control-label" for="customControlInline">No </label>
-
-        </div>
-
-        <button class="button" type="button">
-            TRY HERE
-        </button>
-    </div>
-
-    <section>
+    <section class="food-feature">
         <div class="container">
             <div class="row">
-                <div class="col" id="column-id">
+                <div class="col-1"></div>
+                <div class="col-3" id="column-id">
                     <div class="card" style="width: 18rem;">
                         <img class="plate-image" src="img/plate1.jpg" class="card-img-top" alt="plate-image">
                         <div class="card-body">
                             <h5 class="card-title">Pizza</h5>
-                            <p class="card-text">To create our own Pizza click here</p>
-                            <a href="#" class="btn btn-primary">Pizza</a>
+                            <p class="card-text">To create your own Pizza click here</p>
+                            <a href="#" id="center" class="btn btn-primary">Pizza</a>
                         </div>
                     </div>
                 </div>
-                <div class="col" id="column-id">
+                <div class="col-1"></div>
+                <div class="col-3" id="column-id">
                     <div class="card" style="width: 18rem;">
                         <img class="plate-image" src="img/plate2.jpg" class="card-img-top" alt="plate-image">
                         <div class="card-body">
                             <h5 class="card-title">Pasta</h5>
-                            <p class="card-text">To create our own Pasta click here</p>
-                            <a href="#" class="btn btn-primary">Pasta</a>
+                            <p class="card-text">To create your own Pasta click here</p>
+                            <a href="#" id="center" class="btn btn-primary">Pasta</a>
                         </div>
                     </div>
                 </div>
-                <div class="col" id="column-id">
+                <div class="col-1"></div>
+                <div class="col-3" id="column-id">
                     <div class="card" style="width: 18rem;">
                         <img class="plate-image" src="img/plate3.jpg" class="card-img-top" alt="plate-image">
                         <div class="card-body">
                             <h5 class="card-title">Rice</h5>
-                            <p class="card-text">To create our own Rice click here.</p>
-                            <a href="#" class="btn btn-primary">Rice</a>
+                            <p class="card-text">To create your own Rice click here.</p>
+                            <a href="#" id="center" class="btn btn-primary">Rice</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+
+ 
+
+<div class="choose-your-recipe">
+    <h2 class="checkoutourrecipes-title">CHECK OUT OUR RECIPES</h2>
+
+
+    <div class="container">
+    <div class="row align-items-start">
+
+    <div class="col-3">
+    <h4 class="questions">Do you have any of these Allergies?</h4>
+
+    <div id="accordion">
+                <div class="card">
+                  <div class="card-header" id="headingTwo">
+                    <h5 class="mb-0">
+                      <button id="answers" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseTwo">
+                        Milk
+                      </button>
+                    </h5>
+                  </div>
+                  <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                    <div class="card-body">
+                        <button id="button" type="button" onclick="window.location.href='nodairy.html';">
+                            Our Lacto-Free Recipes
+                        </button>
+                    </div>
+                  </div>
+                </div>
+            </div>
+     
+<br>
+       
+<div id="accordion">
+            <div class="card">
+              <div class="card-header" id="headingTwo">
+                <h5 class="mb-0">
+                  <button id="answers" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Nuts
+                  </button>
+                </h5>
+              </div>
+              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                <div class="card-body">
+                    <button id="button" type="button" onclick="window.location.href='nopeanuts.html';">
+                        Our Nut-Free Recipes
+                    </button>
+                </div>
+              </div>
+            </div>
+        </div>
+ 
+<br>
+    
+<div id="accordion">
+        <div class="card">
+          <div class="card-header" id="headingTwo">
+            <h5 class="mb-0">
+              <button id="answers" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseTwo">
+                Shellfish
+              </button>
+            </h5>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+            <div class="card-body">
+                <button id="button" type="button" onclick="window.location.href='highprotein.html';">
+                    Our Favourite Recipes
+                </button>
+            </div>
+          </div>
+        </div>
+    </div>
+
+<br>
+
+<div id="accordion">
+    <div class="card">
+      <div class="card-header" id="headingTwo">
+        <h5 class="mb-0">
+          <button id="answers" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseTwo">
+            Wheat
+          </button>
+        </h5>
+      </div>
+      <div id="collapseFour" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+        <div class="card-body">
+            <button id="button" type="button" onclick="window.location.href='nogluten.html';">
+                Our Gluten-Free Recipes
+            </button>
+        </div>
+      </div>
+    </div>
+</div>
+
+<br>
+
+<div id="accordion">
+<div class="card">
+  <div class="card-header" id="headingTwo">
+    <h5 class="mb-0">
+      <button id="answers" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseTwo">
+        No
+      </button>
+    </h5>
+  </div>
+  <div id="collapseFive" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+    <div class="card-body">
+        <button id="button" type="button" onclick="window.location.href='nodairy.html';">
+            Our Favourite Recipes
+        </button>
+    </div>
+  </div>
+</div>
+</div>
+
+    </div>
+
+
+    <div class="col-1"></div>
+
+<div class="col-3">
+    <h4 class="questions">Do you have any of these Intolerances?</h4>
+
+    
+<div id="accordion">
+        <div class="card">
+          <div class="card-header" id="headingTwo">
+            <h5 class="mb-0">
+              <button id="answers" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseTwo">
+                Dairy
+              </button>
+            </h5>
+          </div>
+          <div id="collapseSix" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+            <div class="card-body">
+                <button id="button" type="button" onclick="window.location.href='nodairy.html';">
+                    Our Lacto-Free Recipes
+                </button>
+            </div>
+          </div>
+        </div>
+    </div>
+
+<br>
+
+<div id="accordion">
+<div class="card">
+  <div class="card-header" id="headingTwo">
+    <h5 class="mb-0">
+      <button id="answers" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseTwo">
+        Gluten
+      </button>
+    </h5>
+  </div>
+  <div id="collapseSeven" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+    <div class="card-body">
+        <button id="button" type="button" onclick="window.location.href='nogluten.html';">
+            Our Gluten-Free Recipes
+        </button>
+    </div>
+  </div>
+</div>
+</div>
+
+<br>
+
+<div id="accordion">
+<div class="card">
+  <div class="card-header" id="headingTwo">
+    <h5 class="mb-0">
+      <button id="answers" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseTwo">
+        No
+      </button>
+    </h5>
+  </div>
+  <div id="collapseEight" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+    <div class="card-body">
+        <button id="button" type="button" onclick="window.location.href='nodairy.html';">
+            Our Favourite Recipes
+        </button>
+    </div>
+  </div>
+</div>
+</div>
+
+</div>
+
+<div class="col-1"></div>
+
+<div class="col-3">
+    <h4 class="questions">Do you have any of these diet preferences?</h4>
+
+
+<div id="accordion">
+<div class="card">
+  <div class="card-header" id="headingTwo">
+    <h5 class="mb-0">
+      <button id="answers" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseTwo">
+        Vegan
+      </button>
+    </h5>
+  </div>
+  <div id="collapseNine" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+    <div class="card-body">
+        <button id="button" type="button" onclick="window.location.href='vegan.html';">
+            Our Vegan Recipes
+        </button>
+    </div>
+  </div>
+</div>
+</div>
+
+<br>
+
+<div id="accordion">
+<div class="card">
+  <div class="card-header" id="headingTwo">
+    <h5 class="mb-0">
+      <button id="answers" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTen" aria-expanded="false" aria-controls="collapseTwo">
+        Vegetarian
+      </button>
+    </h5>
+  </div>
+  <div id="collapseTen" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+    <div class="card-body">
+        <button id="button" type="button" onclick="window.location.href='vegetarian.html';">
+            Our Vegetarian Recipes
+        </button>
+    </div>
+  </div>
+</div>
+</div>
+
+<br>
+
+<div id="accordion">
+<div class="card">
+  <div class="card-header" id="headingTwo">
+    <h5 class="mb-0">
+      <button id="answers" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseEleven" aria-expanded="false" aria-controls="collapseTwo">
+        Pescaterian
+      </button>
+    </h5>
+  </div>
+  <div id="collapseEleven" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+    <div class="card-body">
+        <button id="button" type="button" onclick="window.location.href='fish.html';">
+            Our Favourite Recipes
+        </button>
+    </div>
+  </div>
+</div>
+</div>
+
+<br>
+
+<div id="accordion">
+<div class="card">
+  <div class="card-header" id="headingTwo">
+    <h5 class="mb-0">
+      <button id="answers" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwo">
+        Low-Carb
+      </button>
+    </h5>
+  </div>
+  <div id="collapseTwelve" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+    <div class="card-body">
+        <button id="button" type="button" onclick="window.location.href='lowcarb.html';">
+            Our Low-Carb Recipes
+        </button>
+    </div>
+  </div>
+</div>
+</div>
+
+<br>
+
+<div id="accordion">
+<div class="card">
+  <div class="card-header" id="headingTwo">
+    <h5 class="mb-0">
+      <button id="answers" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThirteen" aria-expanded="false" aria-controls="collapseTwo">
+        Low-Fat
+      </button>
+    </h5>
+  </div>
+  <div id="collapseThirteen" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+    <div class="card-body">
+        <button id="button" type="button" onclick="window.location.href='lowfat.html';">
+            Our Low-Fat Recipes
+        </button>
+    </div>
+  </div>
+</div>
+</div>
+
+<br>
+
+<div id="accordion">
+<div class="card">
+  <div class="card-header" id="headingTwo">
+    <h5 class="mb-0">
+      <button id="answers" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFourteen" aria-expanded="false" aria-controls="collapseTwo">
+        Low-Sugar
+      </button>
+    </h5>
+  </div>
+  <div id="collapseFourteen" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+    <div class="card-body">
+        <button id="button" type="button" onclick="window.location.href='lowsugar.html';">
+            Our Low-Sugar Recipes
+        </button>
+    </div>
+  </div>
+</div>
+</div>
+
+<br>
+
+<div id="accordion">
+<div class="card">
+  <div class="card-header" id="headingTwo">
+    <h5 class="mb-0">
+      <button id="answers" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFifteen" aria-expanded="false" aria-controls="collapseTwo">
+        High-Protein
+      </button>
+    </h5>
+  </div>
+  <div id="collapseFifteen" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+    <div class="card-body">
+        <button id="button" type="button" onclick="window.location.href='highprotein.html';">
+            Our High-Protein Recipes
+        </button>
+    </div>
+  </div>
+</div>
+</div>
+
+<br>
+
+<div id="accordion">
+<div class="card">
+  <div class="card-header" id="headingTwo">
+    <h5 class="mb-0">
+      <button id="answers" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSixteen" aria-expanded="false" aria-controls="collapseTwo">
+        No
+      </button>
+    </h5>
+  </div>
+  <div id="collapseSixteen" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+    <div class="card-body">
+        <button id="button" type="button" onclick="window.location.href='lowsugar.html';">
+            Our Favourite Recipes
+        </button>
+    </div>
+  </div>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
 
 
     <div class="footer">
@@ -218,9 +532,9 @@
     </div>
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
-    </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
 
 </body>
 

@@ -30,7 +30,7 @@ body
     font-weight: bold;
     font-family: 'Oxygen', sans-serif;
     color: #c50d0d;
-    font-size: 1, 75em;
+    font-size: 1,75em;
     text-shadow: 1px 1px 0 rgba(10, 10, 10, 0.9);
 }
 
@@ -69,39 +69,42 @@ body
     margin-top: 5%;
 }
 
-.tryoutourrecipes-title {
+.checkoutourrecipes-title {
     font-weight: bold;
     font-family: 'Oxygen', sans-serif;
     color: #ff7b54;
     text-align: center;
     text-decoration: solid underline #a6a9b6 2px;
+    margin-bottom: -2%;
 }
 
-.dietstext {
-    margin-right: 2%;
+.questions {
     font-weight: bold;
     font-family: 'Merriweather', serif;
-    color: #ff7b54;
+    color: #a6a9b6;
+    margin-bottom: 2%;
+}
+
+#answers {
+    font-family: 'Merriweather', serif;
     color: #a6a9b6;
 }
 
-.button {
+#button {
     border: 2px solid #ff7b54;
     color: white;
     line-height: 2.5;
     font-size: 1rem;
     text-align: center;
     font-weight: bold;
-    background-color: #ff7b54;
-    margin-top: 2%;
-
+    background-color: #ff7b54;   
+    margin-top: 2%;                         
 }
 
-.button:hover {
-    background: white;
-    color: #ff7b54;
+#button:hover {
+    background: #a6a9b6;
+    color:#ff7b54;
 }
-
 
 
 /*feature-recipe*/
