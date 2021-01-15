@@ -4,11 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Arbutus&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-    <title>Cook like an Artist</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <div id="demo" class="carousel slide" data-ride="carousel">
+        <link rel="stylesheet" href="styles.css">
+        <title>Cook like an Artist</title>
 
 </head>
 
@@ -29,7 +36,7 @@
                             <a id="subtitles" class="nav-link active" href="#">Home</a>
                         </li>
                         <li class="nav=item">
-                            <a id="subtitles" class="nav-link active" href="#">Recipes</a>
+                            <a id="subtitles" class="nav-link active" href="#recipes">Recipes</a>
                         </li>
                         <li class="nav=item">
                             <a id="subtitles" class="nav-link active" href="#">Contact</a>
@@ -37,14 +44,12 @@
                     </ul>
                 </div>
             </div>
-            
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
                 aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
         </div>
-
 
         <div class="title-container">
             <h1 class="title">Cook like an artist</h1>
@@ -55,39 +60,89 @@
 
 
 
+    <!-- Indicators -->
+    <div class="indicators">
+    <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+        <li data-target="#demo" data-slide-to="2"></li>
+    </ul>
+
+    <!-- The slideshow -->
+    <div class="container carousel-inner no-padding">
+        <div class="carousel-item active">
+            <div class="col-xs-3 col-sm-3 col-md-3">
+                <img src="img/fish.png"></div>
+            <div class="col-xs-3 col-sm-3 col-md-3">
+                <img src="img/highprotein.png"></div>
+            <div class="col-xs-3 col-sm-3 col-md-3">
+                <img src="img/lowcarb.png"></div>
+            <div class="col-xs-3 col-sm-3 col-md-3">
+                <img src="img/lowfat.png"></div>
+        </div>
+        <div class="carousel-item">
+            <div class="col-xs-3 col-sm-3 col-md-3">
+                <img src="img/lowsugar.png"></div>
+            <div class="col-xs-3 col-sm-3 col-md-3">
+                <img src="img/nodairy.png"></div>
+            <div class="col-xs-3 col-sm-3 col-md-3">
+                <img src="img/nogluten.png"></div>
+            <div class="col-xs-3 col-sm-3 col-md-3">
+                <img src="img/nopeanuts.png"></div>
+        </div>
+        <div class="carousel-item">
+            <div class="col-xs-3 col-sm-3 col-md-3">
+                <img src="img/vegan.png"></div>
+            <div class="col-xs-3 col-sm-3 col-md-3">
+                <img src="img/vegetarian.png"></div>
+            <div class="col-xs-3 col-sm-3 col-md-3">
+                <img src="img/lowsugar.png"></div>
+            <div class="col-xs-3 col-sm-3 col-md-3">
+                <img src="img/nodairy.png"></div>
+        </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">    </a>
+    </div>
+</div>
+
+
+
     <section class="food-feature">
         <div class="container">
             <div class="row">
                 <div class="col-1"></div>
-                <div class="col-3" id="column-id">
-                    <div class="card" style="width: 18rem;">
-                        <img class="plate-image" src="img/plate1.jpg" class="card-img-top" alt="plate-image">
+                <div class="col-lg-3 col-md-3 col-sm-12" id="column-id">
+                    <div id="cardd">
+                        <img class="plate-image" src="img/nogluten.png" class="card-img-top" alt="plate-image">
                         <div class="card-body">
-                            <h5 class="card-title">Pizza</h5>
-                            <p class="card-text">To create your own Pizza click here</p>
-                            <a href="#" id="center" class="btn btn-primary">Pizza</a>
+                            <h5 class="card-title">Soup</h5>
+                            <p class="card-text">To create your own soup click here</p>
+                            <a href="#" id="center" class="btn btn-primary">Soup</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-1"></div>
-                <div class="col-3" id="column-id">
-                    <div class="card" style="width: 18rem;">
-                        <img class="plate-image" src="img/plate2.jpg" class="card-img-top" alt="plate-image">
+                <div class="col-lg-3 col-md-3 col-sm-12" id="column-id">
+                    <div id="cardd">
+                        <img class="plate-image" src="img/fish.png" class="card-img-top" alt="plate-image">
                         <div class="card-body">
-                            <h5 class="card-title">Pasta</h5>
-                            <p class="card-text">To create your own Pasta click here</p>
-                            <a href="#" id="center" class="btn btn-primary">Pasta</a>
+                            <h5 class="card-title">Fish</h5>
+                            <p class="card-text">To create your own fish click here</p>
+                            <a href="#" id="center" class="btn btn-primary">Fish</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-1"></div>
-                <div class="col-3" id="column-id">
-                    <div class="card" style="width: 18rem;">
-                        <img class="plate-image" src="img/plate3.jpg" class="card-img-top" alt="plate-image">
+                <div class="col-lg-3 col-md-3 col-sm-12" id="column-id">
+                    <div id="cardd">
+                        <img class="plate-image" src="img/lowsugar.png" class="card-img-top" alt="plate-image">
                         <div class="card-body">
-                            <h5 class="card-title">Rice</h5>
-                            <p class="card-text">To create your own Rice click here.</p>
-                            <a href="#" id="center" class="btn btn-primary">Rice</a>
+                            <h5 class="card-title">Desert</h5>
+                            <p class="card-text">To create your own desert click here.</p>
+                            <a href="#" id="center" class="btn btn-primary">Desert</a>
                         </div>
                     </div>
                 </div>
@@ -96,444 +151,471 @@
     </section>
 
 
- 
-
-<div class="choose-your-recipe">
-    <h2 class="checkoutourrecipes-title">CHECK OUT OUR RECIPES</h2>
 
 
-    <div class="container">
-    <div class="row align-items-start">
 
-    <div class="col-3">
-    <h4 class="questions">Do you have any of these Allergies?</h4>
 
-    <div id="accordion">
-                <div class="card">
-                  <div class="card-header" id="headingTwo">
-                    <h5 class="mb-0">
-                      <button id="answers" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseTwo">
-                        Milk
-                      </button>
-                    </h5>
-                  </div>
-                  <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
-                    <div class="card-body">
-                        <button id="button" type="button" onclick="window.location.href='nodairy.html';">
-                            Our Lacto-Free Recipes
-                        </button>
+
+
+
+    <div id="recipes" class="choose-your-recipe">
+        <h2 class="checkoutourrecipes-title">CHECK OUT OUR RECIPES</h2>
+
+
+        <div class="container">
+            <div class="row align-items-start">
+
+                <div class="col-lg-3 col-sm-12">
+                    <h4 class="questions">Do you have any of these Allergies?</h4>
+
+                    <div id="accordion">
+                        <div class="card">
+                            <div class="card-header" id="headingTwo">
+                                <h5 class="mb-0">
+                                    <button id="answers" class="btn btn-link collapsed" data-toggle="collapse"
+                                        data-target="#collapseOne" aria-expanded="false" aria-controls="collapseTwo">
+                                        Milk
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseOne" class="collapse" aria-labelledby="headingOne"
+                                data-parent="#accordion">
+                                <div class="card-body">
+                                    <button id="button" type="button" onclick="window.location.href='nodairy.html';">
+                                        Our Lacto-Free Recipes
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                  </div>
+
+                    <br>
+
+                    <div id="accordion">
+                        <div class="card">
+                            <div class="card-header" id="headingTwo">
+                                <h5 class="mb-0">
+                                    <button id="answers" class="btn btn-link collapsed" data-toggle="collapse"
+                                        data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Nuts
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                data-parent="#accordion">
+                                <div class="card-body">
+                                    <button id="button" type="button" onclick="window.location.href='nopeanuts.html';">
+                                        Our Nut-Free Recipes
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <br>
+
+                    <div id="accordion">
+                        <div class="card">
+                            <div class="card-header" id="headingTwo">
+                                <h5 class="mb-0">
+                                    <button id="answers" class="btn btn-link collapsed" data-toggle="collapse"
+                                        data-target="#collapseThree" aria-expanded="false" aria-controls="collapseTwo">
+                                        Shellfish
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingTwo"
+                                data-parent="#accordion">
+                                <div class="card-body">
+                                    <button id="button" type="button"
+                                        onclick="window.location.href='highprotein.html';">
+                                        Our Favourite Recipes
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <br>
+
+                    <div id="accordion">
+                        <div class="card">
+                            <div class="card-header" id="headingTwo">
+                                <h5 class="mb-0">
+                                    <button id="answers" class="btn btn-link collapsed" data-toggle="collapse"
+                                        data-target="#collapseFour" aria-expanded="false" aria-controls="collapseTwo">
+                                        Wheat
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseFour" class="collapse" aria-labelledby="headingTwo"
+                                data-parent="#accordion">
+                                <div class="card-body">
+                                    <button id="button" type="button" onclick="window.location.href='nogluten.html';">
+                                        Our Gluten-Free Recipes
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <br>
+
+                    <div id="accordion">
+                        <div class="card">
+                            <div class="card-header" id="headingTwo">
+                                <h5 class="mb-0">
+                                    <button id="answers" class="btn btn-link collapsed" data-toggle="collapse"
+                                        data-target="#collapseFive" aria-expanded="false" aria-controls="collapseTwo">
+                                        No
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseFive" class="collapse" aria-labelledby="headingTwo"
+                                data-parent="#accordion">
+                                <div class="card-body">
+                                    <button id="button" type="button" onclick="window.location.href='nodairy.html';">
+                                        Our Favourite Recipes
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
-            </div>
-     
-<br>
-       
-<div id="accordion">
-            <div class="card">
-              <div class="card-header" id="headingTwo">
-                <h5 class="mb-0">
-                  <button id="answers" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    Nuts
-                  </button>
-                </h5>
-              </div>
-              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-                <div class="card-body">
-                    <button id="button" type="button" onclick="window.location.href='nopeanuts.html';">
-                        Our Nut-Free Recipes
-                    </button>
+
+
+                <div class="col-1"></div>
+
+                <div class="col-lg-3 col-sm-12">
+                    <h4 class="questions">Do you have any of these Intolerances?</h4>
+
+
+                    <div id="accordion">
+                        <div class="card">
+                            <div class="card-header" id="headingTwo">
+                                <h5 class="mb-0">
+                                    <button id="answers" class="btn btn-link collapsed" data-toggle="collapse"
+                                        data-target="#collapseSix" aria-expanded="false" aria-controls="collapseTwo">
+                                        Dairy
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseSix" class="collapse" aria-labelledby="headingTwo"
+                                data-parent="#accordion">
+                                <div class="card-body">
+                                    <button id="button" type="button" onclick="window.location.href='nodairy.html';">
+                                        Our Lacto-Free Recipes
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <br>
+
+                    <div id="accordion">
+                        <div class="card">
+                            <div class="card-header" id="headingTwo">
+                                <h5 class="mb-0">
+                                    <button id="answers" class="btn btn-link collapsed" data-toggle="collapse"
+                                        data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseTwo">
+                                        Gluten
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseSeven" class="collapse" aria-labelledby="headingTwo"
+                                data-parent="#accordion">
+                                <div class="card-body">
+                                    <button id="button" type="button" onclick="window.location.href='nogluten.html';">
+                                        Our Gluten-Free Recipes
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <br>
+
+                    <div id="accordion">
+                        <div class="card">
+                            <div class="card-header" id="headingTwo">
+                                <h5 class="mb-0">
+                                    <button id="answers" class="btn btn-link collapsed" data-toggle="collapse"
+                                        data-target="#collapseEight" aria-expanded="false" aria-controls="collapseTwo">
+                                        No
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseEight" class="collapse" aria-labelledby="headingTwo"
+                                data-parent="#accordion">
+                                <div class="card-body">
+                                    <button id="button" type="button" onclick="window.location.href='nodairy.html';">
+                                        Our Favourite Recipes
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
-              </div>
+
+                <div class="col-1"></div>
+
+                <div class="col-lg-3 col-sm-12">
+                    <h4 class="questions">Do you have any of these diet preferences?</h4>
+
+
+                    <div id="accordion">
+                        <div class="card">
+                            <div class="card-header" id="headingTwo">
+                                <h5 class="mb-0">
+                                    <button id="answers" class="btn btn-link collapsed" data-toggle="collapse"
+                                        data-target="#collapseNine" aria-expanded="false" aria-controls="collapseTwo">
+                                        Vegan
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseNine" class="collapse" aria-labelledby="headingTwo"
+                                data-parent="#accordion">
+                                <div class="card-body">
+                                    <button id="button" type="button" onclick="window.location.href='vegan.html';">
+                                        Our Vegan Recipes
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <br>
+
+                    <div id="accordion">
+                        <div class="card">
+                            <div class="card-header" id="headingTwo">
+                                <h5 class="mb-0">
+                                    <button id="answers" class="btn btn-link collapsed" data-toggle="collapse"
+                                        data-target="#collapseTen" aria-expanded="false" aria-controls="collapseTwo">
+                                        Vegetarian
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseTen" class="collapse" aria-labelledby="headingTwo"
+                                data-parent="#accordion">
+                                <div class="card-body">
+                                    <button id="button" type="button" onclick="window.location.href='vegetarian.html';">
+                                        Our Vegetarian Recipes
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <br>
+
+                    <div id="accordion">
+                        <div class="card">
+                            <div class="card-header" id="headingTwo">
+                                <h5 class="mb-0">
+                                    <button id="answers" class="btn btn-link collapsed" data-toggle="collapse"
+                                        data-target="#collapseEleven" aria-expanded="false" aria-controls="collapseTwo">
+                                        Pescaterian
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseEleven" class="collapse" aria-labelledby="headingTwo"
+                                data-parent="#accordion">
+                                <div class="card-body">
+                                    <button id="button" type="button" onclick="window.location.href='fish.html';">
+                                        Our Favourite Recipes
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <br>
+
+                    <div id="accordion">
+                        <div class="card">
+                            <div class="card-header" id="headingTwo">
+                                <h5 class="mb-0">
+                                    <button id="answers" class="btn btn-link collapsed" data-toggle="collapse"
+                                        data-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwo">
+                                        Low-Carb
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseTwelve" class="collapse" aria-labelledby="headingTwo"
+                                data-parent="#accordion">
+                                <div class="card-body">
+                                    <button id="button" type="button" onclick="window.location.href='lowcarb.html';">
+                                        Our Low-Carb Recipes
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <br>
+
+                    <div id="accordion">
+                        <div class="card">
+                            <div class="card-header" id="headingTwo">
+                                <h5 class="mb-0">
+                                    <button id="answers" class="btn btn-link collapsed" data-toggle="collapse"
+                                        data-target="#collapseThirteen" aria-expanded="false"
+                                        aria-controls="collapseTwo">
+                                        Low-Fat
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseThirteen" class="collapse" aria-labelledby="headingTwo"
+                                data-parent="#accordion">
+                                <div class="card-body">
+                                    <button id="button" type="button" onclick="window.location.href='lowfat.html';">
+                                        Our Low-Fat Recipes
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <br>
+
+                    <div id="accordion">
+                        <div class="card">
+                            <div class="card-header" id="headingTwo">
+                                <h5 class="mb-0">
+                                    <button id="answers" class="btn btn-link collapsed" data-toggle="collapse"
+                                        data-target="#collapseFourteen" aria-expanded="false"
+                                        aria-controls="collapseTwo">
+                                        Low-Sugar
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseFourteen" class="collapse" aria-labelledby="headingTwo"
+                                data-parent="#accordion">
+                                <div class="card-body">
+                                    <button id="button" type="button" onclick="window.location.href='lowsugar.html';">
+                                        Our Low-Sugar Recipes
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <br>
+
+                    <div id="accordion">
+                        <div class="card">
+                            <div class="card-header" id="headingTwo">
+                                <h5 class="mb-0">
+                                    <button id="answers" class="btn btn-link collapsed" data-toggle="collapse"
+                                        data-target="#collapseFifteen" aria-expanded="false"
+                                        aria-controls="collapseTwo">
+                                        High-Protein
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseFifteen" class="collapse" aria-labelledby="headingTwo"
+                                data-parent="#accordion">
+                                <div class="card-body">
+                                    <button id="button" type="button"
+                                        onclick="window.location.href='highprotein.html';">
+                                        Our High-Protein Recipes
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <br>
+
+                    <div id="accordion">
+                        <div class="card">
+                            <div class="card-header" id="headingTwo">
+                                <h5 class="mb-0">
+                                    <button id="answers" class="btn btn-link collapsed" data-toggle="collapse"
+                                        data-target="#collapseSixteen" aria-expanded="false"
+                                        aria-controls="collapseTwo">
+                                        No
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseSixteen" class="collapse" aria-labelledby="headingTwo"
+                                data-parent="#accordion">
+                                <div class="card-body">
+                                    <button id="button" type="button" onclick="window.location.href='lowsugar.html';">
+                                        Our Favourite Recipes
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
             </div>
+
         </div>
- 
-<br>
-    
-<div id="accordion">
-        <div class="card">
-          <div class="card-header" id="headingTwo">
-            <h5 class="mb-0">
-              <button id="answers" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseTwo">
-                Shellfish
-              </button>
-            </h5>
-          </div>
-          <div id="collapseThree" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-            <div class="card-body">
-                <button id="button" type="button" onclick="window.location.href='highprotein.html';">
-                    Our Favourite Recipes
-                </button>
-            </div>
-          </div>
-        </div>
-    </div>
-
-<br>
-
-<div id="accordion">
-    <div class="card">
-      <div class="card-header" id="headingTwo">
-        <h5 class="mb-0">
-          <button id="answers" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseTwo">
-            Wheat
-          </button>
-        </h5>
-      </div>
-      <div id="collapseFour" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-        <div class="card-body">
-            <button id="button" type="button" onclick="window.location.href='nogluten.html';">
-                Our Gluten-Free Recipes
-            </button>
-        </div>
-      </div>
-    </div>
-</div>
-
-<br>
-
-<div id="accordion">
-<div class="card">
-  <div class="card-header" id="headingTwo">
-    <h5 class="mb-0">
-      <button id="answers" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseTwo">
-        No
-      </button>
-    </h5>
-  </div>
-  <div id="collapseFive" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-    <div class="card-body">
-        <button id="button" type="button" onclick="window.location.href='nodairy.html';">
-            Our Favourite Recipes
-        </button>
-    </div>
-  </div>
-</div>
-</div>
 
     </div>
-
-
-    <div class="col-1"></div>
-
-<div class="col-3">
-    <h4 class="questions">Do you have any of these Intolerances?</h4>
-
-    
-<div id="accordion">
-        <div class="card">
-          <div class="card-header" id="headingTwo">
-            <h5 class="mb-0">
-              <button id="answers" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseTwo">
-                Dairy
-              </button>
-            </h5>
-          </div>
-          <div id="collapseSix" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-            <div class="card-body">
-                <button id="button" type="button" onclick="window.location.href='nodairy.html';">
-                    Our Lacto-Free Recipes
-                </button>
-            </div>
-          </div>
-        </div>
-    </div>
-
-<br>
-
-<div id="accordion">
-<div class="card">
-  <div class="card-header" id="headingTwo">
-    <h5 class="mb-0">
-      <button id="answers" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseTwo">
-        Gluten
-      </button>
-    </h5>
-  </div>
-  <div id="collapseSeven" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-    <div class="card-body">
-        <button id="button" type="button" onclick="window.location.href='nogluten.html';">
-            Our Gluten-Free Recipes
-        </button>
-    </div>
-  </div>
-</div>
-</div>
-
-<br>
-
-<div id="accordion">
-<div class="card">
-  <div class="card-header" id="headingTwo">
-    <h5 class="mb-0">
-      <button id="answers" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseTwo">
-        No
-      </button>
-    </h5>
-  </div>
-  <div id="collapseEight" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-    <div class="card-body">
-        <button id="button" type="button" onclick="window.location.href='nodairy.html';">
-            Our Favourite Recipes
-        </button>
-    </div>
-  </div>
-</div>
-</div>
-
-</div>
-
-<div class="col-1"></div>
-
-<div class="col-3">
-    <h4 class="questions">Do you have any of these diet preferences?</h4>
-
-
-<div id="accordion">
-<div class="card">
-  <div class="card-header" id="headingTwo">
-    <h5 class="mb-0">
-      <button id="answers" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseTwo">
-        Vegan
-      </button>
-    </h5>
-  </div>
-  <div id="collapseNine" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-    <div class="card-body">
-        <button id="button" type="button" onclick="window.location.href='vegan.html';">
-            Our Vegan Recipes
-        </button>
-    </div>
-  </div>
-</div>
-</div>
-
-<br>
-
-<div id="accordion">
-<div class="card">
-  <div class="card-header" id="headingTwo">
-    <h5 class="mb-0">
-      <button id="answers" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTen" aria-expanded="false" aria-controls="collapseTwo">
-        Vegetarian
-      </button>
-    </h5>
-  </div>
-  <div id="collapseTen" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-    <div class="card-body">
-        <button id="button" type="button" onclick="window.location.href='vegetarian.html';">
-            Our Vegetarian Recipes
-        </button>
-    </div>
-  </div>
-</div>
-</div>
-
-<br>
-
-<div id="accordion">
-<div class="card">
-  <div class="card-header" id="headingTwo">
-    <h5 class="mb-0">
-      <button id="answers" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseEleven" aria-expanded="false" aria-controls="collapseTwo">
-        Pescaterian
-      </button>
-    </h5>
-  </div>
-  <div id="collapseEleven" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-    <div class="card-body">
-        <button id="button" type="button" onclick="window.location.href='fish.html';">
-            Our Favourite Recipes
-        </button>
-    </div>
-  </div>
-</div>
-</div>
-
-<br>
-
-<div id="accordion">
-<div class="card">
-  <div class="card-header" id="headingTwo">
-    <h5 class="mb-0">
-      <button id="answers" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwo">
-        Low-Carb
-      </button>
-    </h5>
-  </div>
-  <div id="collapseTwelve" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-    <div class="card-body">
-        <button id="button" type="button" onclick="window.location.href='lowcarb.html';">
-            Our Low-Carb Recipes
-        </button>
-    </div>
-  </div>
-</div>
-</div>
-
-<br>
-
-<div id="accordion">
-<div class="card">
-  <div class="card-header" id="headingTwo">
-    <h5 class="mb-0">
-      <button id="answers" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThirteen" aria-expanded="false" aria-controls="collapseTwo">
-        Low-Fat
-      </button>
-    </h5>
-  </div>
-  <div id="collapseThirteen" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-    <div class="card-body">
-        <button id="button" type="button" onclick="window.location.href='lowfat.html';">
-            Our Low-Fat Recipes
-        </button>
-    </div>
-  </div>
-</div>
-</div>
-
-<br>
-
-<div id="accordion">
-<div class="card">
-  <div class="card-header" id="headingTwo">
-    <h5 class="mb-0">
-      <button id="answers" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFourteen" aria-expanded="false" aria-controls="collapseTwo">
-        Low-Sugar
-      </button>
-    </h5>
-  </div>
-  <div id="collapseFourteen" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-    <div class="card-body">
-        <button id="button" type="button" onclick="window.location.href='lowsugar.html';">
-            Our Low-Sugar Recipes
-        </button>
-    </div>
-  </div>
-</div>
-</div>
-
-<br>
-
-<div id="accordion">
-<div class="card">
-  <div class="card-header" id="headingTwo">
-    <h5 class="mb-0">
-      <button id="answers" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFifteen" aria-expanded="false" aria-controls="collapseTwo">
-        High-Protein
-      </button>
-    </h5>
-  </div>
-  <div id="collapseFifteen" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-    <div class="card-body">
-        <button id="button" type="button" onclick="window.location.href='highprotein.html';">
-            Our High-Protein Recipes
-        </button>
-    </div>
-  </div>
-</div>
-</div>
-
-<br>
-
-<div id="accordion">
-<div class="card">
-  <div class="card-header" id="headingTwo">
-    <h5 class="mb-0">
-      <button id="answers" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSixteen" aria-expanded="false" aria-controls="collapseTwo">
-        No
-      </button>
-    </h5>
-  </div>
-  <div id="collapseSixteen" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-    <div class="card-body">
-        <button id="button" type="button" onclick="window.location.href='lowsugar.html';">
-            Our Favourite Recipes
-        </button>
-    </div>
-  </div>
-</div>
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
 
 
 
     <div class="footer">
 
-        <footer class="bg-light text-center text-lg-start" id="footer-top"> 
-            <div class="container p-4">
-                <div class="row">
-                    <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
-                        <h5 class="text-uppercase">Footer Content</h5>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
-                            molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae aliquam
-                            voluptatem veniam, est atque cumque eum delectus sint!
-                        </p>
+        <footer class="bg-light text-center text-lg-start" id="footer-top">
+            <div class="footer-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 col-lg-3 offset-lg-1 footer-about wow fadeInUp">
+                            <img class="logo-footer" src="/img/logo3.png" alt="logo-footer"
+                                data-at2x="assets/img/logo.png">
+                            <p>
+                                Ea mel quodsi laoreet. Nec zril ridens ea, sint latine erroribus mel no.
+                            </p>
+                        </div>
+                        <div class="col-md-4 col-lg-3 offset-lg-1 footer-contact wow fadeInDown">
+                            <h3 class="title-footer">Contact</h3>
+                            <p> Phone: 01 234 567 89</p>
+                            <p> Email: <a class="email-footer" href="#">info@info.com</a></p>
+                            <p> Skype: artist-cantina</p>
+                        </div>
+                        <div class="col-md-4 col-lg-3 offset-lg-1 footer-links wow fadeInUp">
+                            <div class="col">
+                                <h3 class="title-footer">Links</h3>
+                            </div>
+                            <div class="">
+                                <a class="btn btn-block btn-social btn-facebook">
+                                    <span class="fa fa fa-facebook" ></span> Sign in with Facebook
+                                </a>
+                                <a class="btn btn-block btn-social btn-pinterest">
+                                    <span class="fa fa-pinterest"></span> Sign in with Pinterest
+                                </a>
+                                <a class="btn btn-block btn-social btn-twitter">
+                                    <span class="fa fa-twitter"></span> Sign in with Twitter
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                    
-                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                        <h5 class="text-uppercase">Links</h5>
-                        <ul class="list-unstyled mb-0">
-                            <li>
-                                <a href="#!" class="text-dark">Link 1</a>
-                            </li>
-                            <li>
-                                <a href="#!" class="text-dark">Link 2</a>
-                            </li>
-                            <li>
-                                <a href="#!" class="text-dark">Link 3</a>
-                            </li>
-                            <li>
-                                <a href="#!" class="text-dark">Link 4</a>
-                            </li>
-                        </ul>
-                    </div>
-                    
-                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                        <h5 class="text-uppercase">Links</h5>
-                        <ul class="list-unstyled mb-0">
-                            <li>
-                                <a href="#!" class="text-dark">Link 1</a>
-                            </li>
-                            <li>
-                                <a href="#!" class="text-dark">Link 2</a>
-                            </li>
-                            <li>
-                                <a href="#!" class="text-dark">Link 3</a>
-                            </li>
-                            <li>
-                                <a href="#!" class="text-dark">Link 4</a>
-                            </li>
-                        </ul>
-                    </div>
-                    
                 </div>
-                
             </div>
-            
 
-            
             <div class="text-center p-3" id="footer-bottom">
                 © 2021 Copyright:
-                <a class="text-white" href="#">Artist cantina</a>
+                <a class="text-white link-end" href="#">Artist cantina</a>
             </div>
-        
         </footer>
-        
-
     </div>
 
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
+    </script>
 
 
 </body>
